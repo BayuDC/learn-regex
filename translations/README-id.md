@@ -27,27 +27,25 @@
 * [فارسی](translations/README-fa.md)
 * [Indonesia](translations/README-id.md) (WIP)
 
-## What is Regular Expression?
+## Apa itu Regular Expression?
 
 <p>
     <a href="https://gum.co/learn-regex">
-        <img src="https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Download PDF">
+        <img src="https://img.shields.io/badge/-Unduh%20PDF%20-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Unduh PDF">
     </a>
 </p>
 
-> A regular expression is a group of characters or symbols which is used to find a specific pattern in a text.
+> Regular Expression adalah sekumpulan karakter atau simbol yang dimana digunakan untuk menemukan suatu pola khusus pada sebuah text.
 
-A regular expression is a pattern that is matched against a subject string from
-left to right. Regular expressions are used to replace text within a string, 
-validating forms, extracting a substring from a string based on a pattern match, 
-and so much more. The term "regular expression" is a mouthful, so you will usually
-find the term abbreviated to "regex" or "regexp". 
+Regular Expression adalah pola yang dicocokan dengan string subjek dari
+kiri ke kanan. Regular Expression digunakan untuk mengganti teks didalam string, 
+validasi formulir, meng-ekstrak substring dari string berdasarkan kecocokan pola, 
+dan masih banyak lagi. Istilah "regular expression" cukup panjang, jadi kamu biasanya menemukan istilah tersebut disingkat menjadi "regex" atau "regexp". 
 
-Imagine you are writing an application and you want to set the rules for when a
-user chooses their username. We want to allow the username to contain letters,
-numbers, underscores and hyphens. We also want to limit the number of characters
-in the username so it does not look ugly. We can use the following regular expression to
-validate the username:
+Bayangkanlah kamu menulis sebuah aplikasi dan kamu ingin mengatur sebuah peraturan ketika sebuah
+pengguna memilih nama pengguna mereka. Kita ingin untuk mengizinkan sebuah nama pengguna mengandung huruf,
+angka, garis bawah dan tanda hubung. Kita juga ingin membatasi batas karakter
+nama pengguna. jadi itu tidak terlihat buruk. Kita bisa menggunakan Regular Expression tersebut untuk memvalidasi username itu:
 
 <br/><br/>
 <p align="center">
