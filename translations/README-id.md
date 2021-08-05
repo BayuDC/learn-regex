@@ -575,8 +575,9 @@ at the end of each line in a string.
 [Test the regular expression](https://regex101.com/r/E88WE2/1)
 
 ## 6. Greedy vs Lazy Matching
-By default, a regex will perform a greedy match, which means the match will be as long as
-possible. We can use `?` to match in a lazy way, which means the match should be as short as possible.
+Secara default, sebuah regex akan melakukan greedy match, yang berarti pencocokkan akan dilakukan
+sepanjang mungkin. Kita bisa menggunakan `?` untuk melakukan lazy match, yang berarti pencocokkan harus
+dilakukan sesingkat mungkin
 
 <pre>
 "/(.*at)/" => <a href="#learn-regex"><strong>The fat cat sat on the mat</strong></a>. </pre>
