@@ -550,13 +550,12 @@ the regular expression, it will now find all matches in the input string, not ju
 
 ### 5.3 Multiline
 
-The `m` modifier is used to perform a multi-line match. As we discussed earlier,
-anchors `(^, $)` are used to check if a pattern is at the beginning of the input or
-the end. But if we want the anchors to work on each line, we use
-the `m` flag. For example, the regular expression `/at(.)?$/gm` means: a lowercase
-`a`, followed by a lowercase `t` and, optionally, anything except
-a new line. And because of the `m` flag, the regular expression engine now matches patterns
-at the end of each line in a string.
+Modifier `m` digunakan untuk melakukan pencocokkan banyak baris. Seperti yang telah kita bahas sebelumnya,
+anchors `(^, $)` digunakan untuk memeriksa jika suatu pola berada di awal dari input atau di akhir. Tapi
+jika kita ingin anchors-nya bekerja pada setiap baris, kita menggunakan flag `m`. Misalnya, regular
+expression `/at(.)?$/gm` berarti: sebuah huruf kecil `a`, diikuti sebuah huruf kecil `t` dan,
+opsionalnya apapun kecuali baris baru. Dan karena flag `m`, mesin regular expression sekarang 
+mencocokkan pola yang berada di akhir dari setiap baris pada suatu string.
 
 <pre>
 "/.at(.)?$/" => The fat
