@@ -52,11 +52,11 @@ nama pengguna. jadi itu tidak terlihat buruk. Kita bisa menggunakan Regular Expr
   <img src="./img/regexp-en.png" alt="Regular expression">
 </p>
 
-The regular expression above can accept the strings `john_doe`, `jo-hn_doe` and
-`john12_as`. It does not match `Jo` because that string contains an uppercase
-letter and also it is too short.
+Regular Expression diatas bisa menerima string `john_doe`, `jo-hn_doe` dan
+`john12_as`. Itu tidak cocok dengan `Jo` karena string itu mengandung huruf 
+besar dan juga terlalu pendek.
 
-## Table of Contents
+## Daftar Isi
 
 - [Basic Matchers](#1-basic-matchers)
 - [Meta Characters](#2-meta-characters)
@@ -89,9 +89,9 @@ letter and also it is too short.
 
 ## 1. Basic Matchers
 
-A regular expression is just a pattern of characters that we use to perform a
-search in a text.  For example, the regular expression `the` means: the letter
-`t`, followed by the letter `h`, followed by the letter `e`.
+Regular Expression hanya sebuah pola dari karakter yang kita gunakan untuk melakukan
+pencarian di sebuah teks.  Sebagai contoh, Regular Expression `the` maksudnya : huruf
+`t`, diikuti huruf `h`, diikuti huruf `e`.
 
 <pre>
 "the" => The fat cat sat on <a href="#learn-regex"><strong>the</strong></a> mat.
@@ -99,11 +99,11 @@ search in a text.  For example, the regular expression `the` means: the letter
 
 [Test the regular expression](https://regex101.com/r/dmRygT/1)
 
-The regular expression `123` matches the string `123`. The regular expression is
-matched against an input string by comparing each character in the regular
-expression to each character in the input string, one after another. Regular
-expressions are normally case-sensitive so the regular expression `The` would
-not match the string `the`.
+Regular Expression `123` cocok dengan string `123`. Regular Expression
+cocok dengan string input dengan membandingkan setiap karakter dalam Regular Expression
+untuk setiap karakter dalam string input, satu setelah lainnya. Regular
+expression biasanya case-sensitive sehingga regular expression `The` tidak
+akan cocok dengan string `the`.
 
 <pre>
 "The" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.
