@@ -497,15 +497,15 @@ string that are not after the word `The` or `the`.
 
 ## 5. Flags
 
-Flags are also called modifiers because they modify the output of a regular
-expression. These flags can be used in any order or combination, and are an
-integral part of the RegExp.
+Flag juga disebut modifier karena itu mengubah output dari sebuah regular
+expression. Flag bisa digunakan pada berbagai urutan dan combinasi, dan 
+merupakan bagian yang tidak terpisahkan dari RegExp.
 
-|Flag|Description|
+|Flag|Keterangan|
 |:----:|----|
-|i|Case insensitive: Match will be case-insensitive.|
-|g|Global Search: Match all instances, not just the first.|
-|m|Multiline: Anchor meta characters work on each line.|
+|i|Case insensitive: Pencocokkan akan menyamakan huruf besar dan huruf kecil.|
+|g|Global Search: Mencocokkan semuanya, bukan hanya yang pertama.|
+|m|Multiline: Anchor karakter bekerja pada tiap baris.|
 
 ### 5.1 Case Insensitive
 
