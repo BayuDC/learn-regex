@@ -530,11 +530,12 @@ whole input string.
 
 ### 5.2 Global Search
 
-The `g` modifier is used to perform a global match (finds all matches rather than
-stopping after the first match). For example, the regular expression`/.(at)/g`
-means: any character except a new line, followed by a lowercase `a`,
-followed by a lowercase `t`. Because we provided the `g` flag at the end of
-the regular expression, it will now find all matches in the input string, not just the first one (which is the default behavior).
+Modifier `g` digunakan untuk melakukan pencocokkan secara global (menemukan semua yang cocok daripada
+berhenti setelah kecocokkan pertama). Misalnya, regular expression `/.(at)/g`
+berarti: karakter apapun kecuali baris baru, diikuti dengan sebuah huruf kecil `a`,
+diikuti dengan sebuah huruf kecil `t`. Karena kita menetapkan flag `g` pada akhir dari
+regular expression, regex-nya sekarang akan menemukan semua kecocokkan pada string yang di-input, 
+bukan hanya yang pertama (yang merupakan tindakan default).
 
 <pre>
 "/.(at)/" => The <a href="#learn-regex"><strong>fat</strong></a> cat sat on the mat.
