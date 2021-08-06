@@ -509,12 +509,13 @@ integral part of the RegExp.
 
 ### 5.1 Case Insensitive
 
-The `i` modifier is used to perform case-insensitive matching. For example, the
-regular expression `/The/gi` means: an uppercase `T`, followed by a lowercase
-`h`, followed by an `e`. And at the end of regular expression
-the `i` flag tells the regular expression engine to ignore the case. As you can
-see, we also provided `g` flag because we want to search for the pattern in the
-whole input string.
+Modifier `i` digunakan untuk melakukan pencocokkan case-insensitive (huruf kecil
+dan huruf besar diperlakukan setara). Misalnya, regular expression `/The/gi`
+berarti: sebuah huruf besar `T`, diikuti dengan sebuah huruf kecil `h`, diikuti
+dengan sebuah `e`. Dan pada akhir dari regular expression flag `i` memberi tahu
+mesin regular expression untuk mengabaikan besar kecilnya huruf. Seperti yang 
+bisa kamu lihat, kita juga menetapkan flag `g` karena kita ingin mencari pola pada
+seluruh string yang di-input.
 
 <pre>
 "The" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.
