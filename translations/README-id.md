@@ -148,11 +148,11 @@ letter `a`, followed by the letter `r`.
 
 ## 2.2 Character Sets
 
-Character sets are also called character classes. Square brackets are used to
-specify character sets. Use a hyphen inside a character set to specify the
-characters' range. The order of the character range inside the square brackets
-doesn't matter. For example, the regular expression `[Tt]he` means: an uppercase
-`T` or lowercase `t`, followed by the letter `h`, followed by the letter `e`.
+Character set (set karakter) juga disebut dengan character class. kurung siku digunakan
+untuk menentukan character set. Gunakan tanda kurang didalam character set untuk menentukan
+jangkauan karakter. Urutan dari jangkauan karakter didalam kurung siku tidak berpengaruh.
+Misalnya, regular expression `[Tt]he` berarti: sebuah huruf besar `T` atau sebuah huruf kecil
+`t`, diikuti dengan huruf `h`, diikuti dengan huruf `e`.
 
 <pre>
 "[Tt]he" => <a href="#learn-regex"><strong>The</strong></a> car parked in <a href="#learn-regex"><strong>the</strong></a> garage.
@@ -160,9 +160,9 @@ doesn't matter. For example, the regular expression `[Tt]he` means: an uppercase
 
 [Test the regular expression](https://regex101.com/r/2ITLQ4/1)
 
-A period inside a character set, however, means a literal period. The regular
-expression `ar[.]` means: a lowercase character `a`, followed by the letter `r`,
-followed by a period `.` character.
+Sebuah titik didalam suatu character set, bagaimanapun, benar-benar berarti sebuah titik.
+Regular expression `ar[.]` berarti: sebuah huruf kecil `a`, diikuti dengan huruf `r`, diikuti
+dengan sebuah karakter titik `.`.
 
 <pre>
 "ar[.]" => A garage is a good place to park a c<a href="#learn-regex"><strong>ar.</strong></a>
