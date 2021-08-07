@@ -190,11 +190,11 @@ terjadi. Karakter meta tersebut bertindak berbeda pada berbagai situasi.
 
 ### 2.3.1 The Star
 
-The `*` symbol matches zero or more repetitions of the preceding matcher. The
-regular expression `a*` means: zero or more repetitions of the preceding lowercase
-character `a`. But if it appears after a character set or class then it finds
-the repetitions of the whole character set. For example, the regular expression
-`[a-z]*` means: any number of lowercase letters in a row.
+Simbol bintang `*` cocok dengan 0 atau lebih pengulangan dari karakter sebelumnya. Regular
+expression `a*` berarti: 0 atau lebih pengulangan dari huruf kecil `a`. Tapi jika itu muncul
+setelah sebuah character set atau class itu akan menemukan pengulangan dari seluruh set
+karakter tersebut. Misalnya, regular expression `[a-z]*` berarti: sejumlah huruf kecil
+dalam satu baris.
 
 <pre>
 "[a-z]*" => T<a href="#learn-regex"><strong>he</strong></a> <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>parked</strong></a> <a href="#learn-regex"><strong>in</strong></a> <a href="#learn-regex"><strong>the</strong></a> <a href="#learn-regex"><strong>garage</strong></a> #21.
@@ -202,12 +202,11 @@ the repetitions of the whole character set. For example, the regular expression
 
 [Test the regular expression](https://regex101.com/r/7m8me5/1)
 
-The `*` symbol can be used with the meta character `.` to match any string of
-characters `.*`. The `*` symbol can be used with the whitespace character `\s`
-to match a string of whitespace characters. For example, the expression
-`\s*cat\s*` means: zero or more spaces, followed by a lowercase `c`,
-followed by a lowercase `a`, followed by a lowercase `t`,
-followed by zero or more spaces.
+Simbol bintang `*` bisa digunakan dengan karakter meta `.` untuk mencocokkan karakter apapun
+pada string `.*`. Simbol `*` bisa digunakan dengan karakter whitespace `\s` untuk mencocokkan
+string dari karakter whitespace. Misalnya, regular expression `\s*cat\s*` berarti: 0 atau
+lebih spasi, diikuti dengan huruf kecil `c`, diikuti dengan huruf kecil `a`, diikuti dengan
+huruf kecil `t`, diikuti dengan 0 atau lebih spasi.
 
 <pre>
 "\s*cat\s*" => The fat<a href="#learn-regex"><strong> cat </strong></a>sat on the con<a href="#learn-regex"><strong>cat</strong></a>enation.
