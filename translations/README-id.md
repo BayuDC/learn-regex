@@ -353,11 +353,11 @@ character.
 
 ## 2.8 Anchors
 
-In regular expressions, we use anchors to check if the matching symbol is the
-starting symbol or ending symbol of the input string. Anchors are of two types:
-The first type is the caret `^` that checks if the matching character is the first
-character of the input and the second type is the dollar sign `$` which checks if a matching
-character is the last character of the input string.
+Di regular expression, Kita menggunakan anchor untuk mengecek jika simbol yang cocok adalah
+simbol awal atau simbol akhir pada string yang di-input. Anchor ada dua jenis yaitu: jenis
+pertama adalah tanda sisipan `^` yang memeriksa jika karakter yang cocok adalah karakter 
+pertama dari string yang di-input dan jenis kedua adalah tanda dolar `$` yang mana memeriksa
+jika karakter yang cocok adalah karakter terakhir dari string yang di-input.
 
 ### 2.8.1 The Caret
 
