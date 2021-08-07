@@ -279,14 +279,15 @@ regular expression `[0-9]{3}` means: Match exactly 3 digits.
 
 ## 2.5 Capturing Groups
 
-A capturing group is a group of subpatterns that is written inside parentheses 
-`(...)`. As discussed before, in regular expressions, if we put a quantifier 
-after a character then it will repeat the preceding character. But if we put a quantifier
-after a capturing group then it repeats the whole capturing group. For example,
-the regular expression `(ab)*` matches zero or more repetitions of the character
-"ab". We can also use the alternation `|` meta character inside a capturing group.
-For example, the regular expression `(c|g|p)ar` means: a lowercase `c`,
-`g` or `p`, followed by `a`, followed by `r`.
+Suatu capturing group (kelompok penangkap) adalah sebuah kelompok dari subpola yang
+ditulis di dalam kurung `(...)`. Seperti pembahasan sebelumnya, di regular expression,
+jika kita menaruh sebuah quantifier (pembilang) setelah sebuah karakter, itu akan mengulangi
+karakter pendahulunya. Tapi jika kita menaruh sebuah quantifier setelah sebuah capturing
+group, itu mengulangi seluruh capturing group. Misalnya, regular expression `(ab)*`
+cocok dengan 0 atau lebih pengulangan dari karakter "ab". Kita juga bisa menggunakan
+karakter alternation `|`  di dalam sebuah capturing group. Misalnya, regular expression
+`(c|g|p)ar` berarti: sebuah huruf kecil `c`, `g` atau `p`, diikuti dengan `a`, diikuti
+dengan `r`.
 
 <pre>
 "(c|g|p)ar" => The <a href="#learn-regex"><strong>car</strong></a> is <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.
@@ -294,9 +295,10 @@ For example, the regular expression `(c|g|p)ar` means: a lowercase `c`,
 
 [Test the regular expression](https://regex101.com/r/tUxrBG/1)
 
-Note that capturing groups do not only match, but also capture, the characters for use in 
-the parent language. The parent language could be Python or JavaScript or virtually any
-language that implements regular expressions in a function definition.
+Perhatikan bahwa capturing group tidak hanya mencocokkan, tetapi juga menangkap
+karakter-karakter untuk digunakan dalam bahasa induk. Bahasa induknya bisa Python atau
+JavaScript atau hampir semua bahasa yang mengimplementasikan regular expressions dalam 
+sebuah function definition.
 
 ### 2.5.1 Non-Capturing Groups
 
