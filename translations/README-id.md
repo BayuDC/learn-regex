@@ -437,16 +437,16 @@ biasa digunakan pada regular expressions:
 
 ### 4.1 Positive Lookahead
 
-The positive lookahead asserts that the first part of the expression must be
-followed by the lookahead expression. The returned match only contains the text
-that is matched by the first part of the expression. To define a positive
-lookahead, parentheses are used. Within those parentheses, a question mark with
-an equals sign is used like this: `(?=...)`. The lookahead expressions is written after
-the equals sign inside parentheses. For example, the regular expression
-`(T|t)he(?=\sfat)` means: match either a lowercase `t` or an uppercase
- `T`, followed by the letter `h`, followed by the letter `e`. In parentheses we
-define a positive lookahead which tells the regular expression engine to match `The`
-or `the` only if it's followed by the word `fat`.
+Lookahead positif menegaskan bahwa bagian pertama dari expression harus diikuti
+dengan lookahead expression. Hasil pencocokkan hanya mengandung text yang cocok dengan
+bagian pertama dari expression. Untuk menetapkan sebuah lookahead positif, digunakanlah
+tanda kurung. Di dalam tanda kurung itu, sebuah tanda tanya dengan sebuah tanda sama
+dengan digunakan seperti ini: `(?=...)`. Lookahead expressions ditulis setelah tanda
+sama dengan didalam tanda kurung. Misalnya, regular expression `(T|t)he(?=\sfat)` berarti:
+cocok dengan sebuah huruf kecil `t` atau sebuah huruf besar `T`, diikuti dengan huruf `h`, 
+diikuti dengan huruf `e`. Di dalam kurung kita menetapkan sebuah lookahead positif yang
+memberi tahu mesin regular expression untuk mencocokkan `The` atau `the` hanya jika itu
+diikuti dengan kata `fat`.
 
 <pre>
 "(T|t)he(?=\sfat)" => <a href="#learn-regex"><strong>The</strong></a> fat cat sat on the mat.
