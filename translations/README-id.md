@@ -471,10 +471,10 @@ Mari simak regular expression berikut `(T|t)he(?!\sfat)` yang berarti: dapatkan 
 
 ### 4.3 Positive Lookbehind
 
-Positive lookbehinds are used to get all the matches that are preceded by a
-specific pattern. Positive lookbehinds are written `(?<=...)`. For example, the
-regular expression `(?<=(T|t)he\s)(fat|mat)` means: get all `fat` or `mat` words
-from the input string that come after the word `The` or `the`.
+Lookbehind positif digunakan untuk mendapatkan semua kecocokkan yang didahului oleh suatu pola
+tertentu. Lookbehind positif ditulis seperti ini: `(?<=...)`. Misalnya, regular expression
+`(?<=(T|t)he\s)(fat|mat)` berarti: dapatkan semua kata `fat` atau `mat` yang muncul setelah
+kata `The` atau `the` dari string yang di-input.
 
 <pre>
 "(?<=(T|t)he\s)(fat|mat)" => The <a href="#learn-regex"><strong>fat</strong></a> cat sat on the <a href="#learn-regex"><strong>mat</strong></a>.
