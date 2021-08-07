@@ -418,22 +418,22 @@ regular expressions:
 
 ## 4. Lookarounds
 
-Lookbehinds and lookaheads (also called lookarounds) are specific types of
-***non-capturing groups*** (used to match a pattern but without including it in the matching
-list). Lookarounds are used when we a pattern must be
-preceded or followed by another pattern. For example, imagine we want to get all
-numbers that are preceded by the `$` character from the string
-`$4.44 and $10.88`. We will use the following regular expression `(?<=\$)[0-9\.]*`
-which means: get all the numbers which contain the `.` character and are preceded
-by the `$` character. These are the lookarounds that are used in regular
-expressions:
+Lookbehind (melihat ke belakang) dan lookahead (melihat ke depan) juga disebut
+lookaround (melihat sekitar) merupakan jenis tertentu dari ***non-capturing groups***
+(digunakan untuk mencocokkan sebuah pola tapi tanpa memasukkan pola tersebut pada
+daftar yang cocok). Lookarounds digunakan ketika suatu pola harus didahului atau
+diikuti oleh pola yang lain. Misalnya, bayangkan kita ingin mendapatkan semua angka
+yang didahului oleh karakter `$` dari string `$4.44 and $10.88`. Kita akan menggunakan
+regular expression berikut `(?<=\$)[0-9\.]*` yang berarti: dapatkan semua angka yang
+mengandung karakter `.` dan didahului oleh karakter `$`. Ini adalah lookaround yang 
+biasa digunakan pada regular expressions:
 
-|Symbol|Description|
+|Simbol|Keterangan|
 |:----:|----|
-|?=|Positive Lookahead|
-|?!|Negative Lookahead|
-|?<=|Positive Lookbehind|
-|?<!|Negative Lookbehind|
+|?=|Lookahead Positif|
+|?!|Lookahead Negatif|
+|?<=|Lookbehind Positif|
+|?<!|Lookbehind Negatif|
 
 ### 4.1 Positive Lookahead
 
