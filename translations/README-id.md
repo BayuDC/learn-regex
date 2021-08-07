@@ -317,16 +317,17 @@ See also [4. Lookaround](#4-lookaround).
 
 ## 2.6 Alternation
 
-In a regular expression, the vertical bar `|` is used to define alternation.
-Alternation is like an OR statement between multiple expressions. Now, you may be
-thinking that character sets and alternation work the same way. But the big
-difference between character sets and alternation is that character sets work at the
-character level but alternation works at the expression level. For example, the
-regular expression `(T|t)he|car` means: either (an uppercase `T` or a lowercase
-`t`, followed by a lowercase `h`, followed by a lowercase `e`) OR
-(a lowercase `c`, followed by a lowercase `a`, followed by
-a lowercase `r`). Note that I included the parentheses for clarity, to show that either expression
-in parentheses can be met and it will match.
+Pada sebuah regular expression, tanda garis vertikal `|` digunakan untuk menetapkan
+alternation. Alternation itu seperti pernyataan OR diantara banyak expression. Sekarang,
+kamu mungkin berpikir bahwa set karakter and alternation bekerja dengan cara yang sama. 
+Tapi perbedaan terbesarnya diantara set karakter dan alternation adalah set karakter
+bekerja pada character level tapi alternation bekerja pada expression level. Misalnya,
+regular expression `(T|t)he|car` berarti: salah satu (sebuah huruf besar `T` atau sebuah
+huruf kecil `t`, diikuti dengan sebuah huruf kecil `h`, diikuti dengan sebuah huruf kecil
+`e`) ATAU (sebuah huruf kecil `c`, diikuti dengan sebuah huruf kecil `a`, diikuti dengan 
+sebuah huruf kecil `r`). Perhatikan bahwa kita menambahkan tanda kurung untuk penegasan,
+untuk menunjukkan bahwa salah satu expression di dalam kurung dapat dipenuhi dan itu
+akan cocok.
 
 <pre>
 "(T|t)he|car" => <a href="#learn-regex"><strong>The</strong></a> <a href="#learn-regex"><strong>car</strong></a> is parked in <a href="#learn-regex"><strong>the</strong></a> garage.
