@@ -484,10 +484,10 @@ kata `The` atau `the` dari string yang di-input.
 
 ### 4.4 Negative Lookbehind
 
-Negative lookbehinds are used to get all the matches that are not preceded by a
-specific pattern. Negative lookbehinds are written `(?<!...)`. For example, the
-regular expression `(?<!(T|t)he\s)(cat)` means: get all `cat` words from the input
-string that are not after the word `The` or `the`.
+Lookbehind negatif digunakan untuk mendapatkan semua kecocokkan yang tidak didahului oleh
+suatu pola tertentu. Lookbehind negatif ditulis seperti ini: `(?<!...)`. Misalnya, regular
+expression `(?<!(T|t)he\s)(cat)` berarti: dapatkan semua kata `cat` yang bukan setelah kata
+`The` atau `the` dari string yang di-input.
 
 <pre>
 "(?&lt;!(T|t)he\s)(cat)" => The cat sat on <a href="#learn-regex"><strong>cat</strong></a>.
