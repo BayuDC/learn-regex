@@ -185,9 +185,8 @@ followed by the character `a`, followed by the letter `r`.
 
 ## 2.3 Repetitions
 
-The meta characters `+`, `*` or `?` are used to specify how many times a
-subpattern can occur. These meta characters act differently in different
-situations.
+Karakter meta `+`, `*` atau `?` digunakan untuk menentukan berapa kali subpola dapat
+terjadi. Karakter meta tersebut bertindak berbeda pada berbagai situasi.
 
 ### 2.3.1 The Star
 
