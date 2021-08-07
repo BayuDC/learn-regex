@@ -403,18 +403,18 @@ character and the matcher must be at the end of the string.
 
 ##  3. Shorthand Character Sets
 
-There are a number of convenient shorthands for commonly used character sets/
-regular expressions:
+Ada sejumlah singkatan nyaman untuk sekumpulan karakter yang biasa digunakan
+pada regular expression:
 
-|Shorthand|Description|
+|Singkatan|Keterangan|
 |:----:|----|
-|.|Any character except new line|
-|\w|Matches alphanumeric characters: `[a-zA-Z0-9_]`|
-|\W|Matches non-alphanumeric characters: `[^\w]`|
-|\d|Matches digits: `[0-9]`|
-|\D|Matches non-digits: `[^\d]`|
-|\s|Matches whitespace characters: `[\t\n\f\r\p{Z}]`|
-|\S|Matches non-whitespace characters: `[^\s]`|
+|.|Karakter apapun kecuali baris baru|
+|\w|Karakter huruf dan angka: `[a-zA-Z0-9_]`|
+|\W|Karakter selain huruf dan angka: `[^\w]`|
+|\d|Karakter angka: `[0-9]`|
+|\D|Karakter selain angka: `[^\d]`|
+|\s|karakter whitespace (spasi, tab, enter, dll): `[\t\n\f\r\p{Z}]`|
+|\S|karakter selain whitespace: `[^\s]`|
 
 ## 4. Lookarounds
 
