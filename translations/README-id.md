@@ -302,10 +302,11 @@ sebuah function definition.
 
 ### 2.5.1 Non-Capturing Groups
 
-A non-capturing group is a capturing group that matches the characters but 
-does not capture the group. A non-capturing group is denoted by a `?` followed by a `:` 
-within parentheses `(...)`. For example, the regular expression `(?:c|g|p)ar` is similar to 
-`(c|g|p)ar` in that it matches the same characters but will not create a capture group.
+Suatu non-capturing group adalah sebuah capturing group yang mencocokkan karakter tapi 
+tidak menangkapnya. Sebuah non-capturing group dilambangkan dengan sebuah `?` diikuti 
+dengan sebuah `:` di dalam tanda kurung `(...)`. Misalnya, regular expression `(?:c|g|p)ar`
+mirip dengan `(c|g|p)ar` karena mencocokkan karakter yang sama tapi tidak akan membuat
+sebuah capture group.
 
 <pre>
 "(?:c|g|p)ar" => The <a href="#learn-regex"><strong>car</strong></a> is <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.
@@ -313,9 +314,9 @@ within parentheses `(...)`. For example, the regular expression `(?:c|g|p)ar` is
 
 [Test the regular expression](https://regex101.com/r/Rm7Me8/1)
 
-Non-capturing groups can come in handy when used in find-and-replace functionality or 
-when mixed with capturing groups to keep the overview when producing any other kind of output. 
-See also [4. Lookaround](#4-lookaround).
+Non-capturing group bisa berguna ketika digunakan pada function find-and-replace atau 
+ketika dicampur dengan capturing group untuk menjaga gambaran saat memproduksi jenis output
+lainnya. Lihat juga [4. Lookaround](#4-lookaround).
 
 ## 2.6 Alternation
 
