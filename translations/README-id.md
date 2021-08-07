@@ -384,10 +384,10 @@ kecil `e`.
 
 ### 2.8.2 The Dollar Sign
 
-The dollar sign `$` is used to check if a matching character is the last character
-in the string. For example, the regular expression `(at\.)$` means: a
-lowercase `a`, followed by a lowercase `t`, followed by a `.`
-character and the matcher must be at the end of the string.
+Tanda dolar `$` digunakan untuk memeriksa jika karakter yang cocok adalah karakter terakhir
+dari string yang di-input. Misalnya, regular expression `(at\.)$` berarti: sebuah huruf
+kecil `a`, diikuti dengan sebuah huruf kecil `t`, diikuti dengan sebuah tanda `.` dan
+yang cocok harus berada di akhir string-nya.
 
 <pre>
 "(at\.)" => The fat c<a href="#learn-regex"><strong>at.</strong></a> s<a href="#learn-regex"><strong>at.</strong></a> on the m<a href="#learn-regex"><strong>at.</strong></a>
