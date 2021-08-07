@@ -361,14 +361,14 @@ jika karakter yang cocok adalah karakter terakhir dari string yang di-input.
 
 ### 2.8.1 The Caret
 
-The caret symbol `^` is used to check if a matching character is the first character
-of the input string. If we apply the following regular expression `^a` (meaning 'a' must be
-the starting character) to the string `abc`, it will match `a`. But if we apply
-the regular expression `^b` to the above string, it will not match anything.
-Because in the string `abc`, the "b" is not the starting character. Let's take a look
-at another regular expression `^(T|t)he` which means: an uppercase `T` or
-a lowercase `t` must be the first character in the string, followed by a
-lowercase `h`, followed by a lowercase `e`.
+Tanda sisipan `^` digunakan untuk memeriksa jika karakter yang cocok adalah karakter pertama
+dari string yang di-input. Jika kita menggunakan regular expression berikut `^a` (artinya 'a'
+harus menjadi karakter awal) dari string `abc`, itu akan cocok dengan `a`. Tapi jika kita
+menggunakan regular expression `^b` pada string diatas, itu tidak akan cocok dengan apapun.
+Karena pada string `abc`, karakter "b" bukan karakter awal. Mari lihat regular expression 
+lainnya `^(T|t)he` yang berarti: sebuah huruf besar `T` atau sebuah huruf keci `t` harus
+menjadi karakter pertama pada string-nya, diikuti sebuah huruf kecil `h`, diikuti sebuah huruf
+kecil `e`.
 
 <pre>
 "(T|t)he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in <a href="#learn-regex"><strong>the</strong></a> garage.
