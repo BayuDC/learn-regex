@@ -172,10 +172,9 @@ dengan sebuah karakter titik `.`.
 
 ### 2.2.1 Negated Character Sets
 
-In general, the caret symbol represents the start of the string, but when it is
-typed after the opening square bracket it negates the character set. For
-example, the regular expression `[^c]ar` means: any character except `c`,
-followed by the character `a`, followed by the letter `r`.
+Secara umum, tanda sisipan mewakili awal dari string, tapi ketika itu ditulis setalah kurung
+siku buka, itu membalik set karakternya. Misalnya, regular expression `[^c]ar` berarti:
+karakter apapun kecuali `c`, diikuti dengan karakter `a`, diikuti dengan huruf `r`.
 
 <pre>
 "[^c]ar" => The car <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.
