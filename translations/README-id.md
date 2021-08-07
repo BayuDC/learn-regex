@@ -216,10 +216,10 @@ huruf kecil `t`, diikuti dengan 0 atau lebih spasi.
 
 ### 2.3.2 The Plus
 
-The `+` symbol matches one or more repetitions of the preceding character. For
-example, the regular expression `c.+t` means: a lowercase `c`, followed by
-at least one character, followed by a lowercase `t`. It needs to be
-clarified that`t` is the last `t` in the sentence.
+Simbol tambah `+` cocok dengan 1 atau lebih pengulangan dari karakter sebelumnya. Misalnya,
+regular expression `c.+t` berarti: sebuah huruf kecil `c`, diikuti dengan setidaknya satu
+karakter, diikuti dengan sebuah huruf kecil `t`. Itu perlu diklarifikasi bahwa `t` adalah
+`t` terakhir dari kalimat tersebut.
 
 <pre>
 "c.+t" => The fat <a href="#learn-regex"><strong>cat sat on the mat</strong></a>.
