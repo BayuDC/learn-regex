@@ -229,10 +229,10 @@ karakter, diikuti dengan sebuah huruf kecil `t`. Itu perlu diklarifikasi bahwa `
 
 ### 2.3.3 The Question Mark
 
-In regular expressions, the meta character `?` makes the preceding character
-optional. This symbol matches zero or one instance of the preceding character.
-For example, the regular expression `[T]?he` means: Optional uppercase
-`T`, followed by a lowercase `h`, followed by a lowercase `e`.
+Di regular expression, karakter meta `?` membuat karakter sebelumnya menjadi opsional.
+Simbol in cocok dengan 0 atau 1 instansi dari karakter sebelumnya. Misalnya, regular
+expression `[T]?he` berarti: huruf besar opsional `T`, diikuti dengan huruf kecil `h`,
+diikuti dengan huruf kecil `e`.
 
 <pre>
 "[T]he" => <a href="#learn-regex"><strong>The</strong></a> car is parked in the garage.
