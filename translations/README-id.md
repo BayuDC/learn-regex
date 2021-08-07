@@ -250,29 +250,29 @@ For example, the regular expression `[T]?he` means: Optional uppercase
 
 ## 2.4 Braces
 
-In regular expressions, braces (also called quantifiers) are used to
-specify the number of times that a character or a group of characters can be
-repeated. For example, the regular expression `[0-9]{2,3}` means: Match at least
-2 digits, but not more than 3, ranging from 0 to 9.
+Di regular expression, braces juga disebut quantifier (pembilang) digunakan untuk
+menentukan berapa kali sebuah karakter atau kelompok karakter dapat diulang. Misalnya,
+regular expression `[0-9]{2,3}` berarti: cocok dengan setidaknya angka 2 digit, tapi
+tidak lebih dari 3, mulai dari 0 sampai 9.
 
 <pre>
-"[0-9]{2,3}" => The number was 9.<a href="#learn-regex"><strong>999</strong></a>7 but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.
+"[0-9]{2,3}" => Angkanya adalah 9.<a href="#learn-regex"><strong>999</strong></a>7 tapi kita membulatkannya menjadi <a href="#learn-regex"><strong>10</strong></a>.0.
 </pre>
 
 [Test the regular expression](https://regex101.com/r/juM86s/1)
 
-We can leave out the second number. For example, the regular expression
-`[0-9]{2,}` means: Match 2 or more digits. If we also remove the comma, the
-regular expression `[0-9]{3}` means: Match exactly 3 digits.
+Kita dapat mengosongkan angka kedua. Misalnya, regular expression `[0-9]{2,}` berarti:
+Cocok dengan 2 atau lebih digit. Jika kita juga menghapus tanda koma, regular expression
+`[0-9]{3}` berarti: cocok dengan tepat 3 digit.
 
 <pre>
-"[0-9]{2,}" => The number was 9.<a href="#learn-regex"><strong>9997</strong></a> but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.
+"[0-9]{2,}" => Angkanya adalah 9.<a href="#learn-regex"><strong>9997</strong></a> tapi kita membulatkannya menjadi <a href="#learn-regex"><strong>10</strong></a>.0.
 </pre>
 
 [Test the regular expression](https://regex101.com/r/Gdy4w5/1)
 
 <pre>
-"[0-9]{3}" => The number was 9.<a href="#learn-regex"><strong>999</strong></a>7 but we rounded it off to 10.0.
+"[0-9]{3}" => Angkanya adalah 9.<a href="#learn-regex"><strong>999</strong></a>7 tapi kita membulatkannya menjadi 10.0.
 </pre>
 
 [Test the regular expression](https://regex101.com/r/Sivu30/1)
