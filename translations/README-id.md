@@ -456,12 +456,12 @@ diikuti dengan kata `fat`.
 
 ### 4.2 Negative Lookahead
 
-Negative lookaheads are used when we need to get all matches from an input string
-that are not followed by a certain pattern. A negative lookahead is written the same way as a
-positive lookahead. The only difference is, instead of an equals sign `=`, we
-use an exclamation mark `!` to indicate negation i.e. `(?!...)`. Let's take a look at the following
-regular expression `(T|t)he(?!\sfat)` which means: get all `The` or `the` words
-from the input string that are not followed by a space character and the word `fat`.
+Lookahead negatif digunakan ketika kita ingin mendapatkan semua kecocokkan yang tidak diikuti
+oleh pola tertentu dari string yang di-input. Lookahead negatif ditulis dengan cara yang sama
+seperti lookahead postif. Satu-satunya perbedaan adalah, daripada menggunakan tanda sama 
+dengan `=`, kita menggunakan sebuah tanda seru `!` untuk menunjukkan negasi, yaitu: `(?!...)`.
+Mari simak regular expression berikut `(T|t)he(?!\sfat)` yang berarti: dapatkan semua kata
+`The` atau `the` yang tidak diikuti karakter spasi dan kata `fat` dari string yang di-input.
 
 <pre>
 "(T|t)he(?!\sfat)" => The fat cat sat on <a href="#learn-regex"><strong>the</strong></a> mat.
