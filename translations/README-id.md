@@ -336,14 +336,15 @@ in parentheses can be met and it will match.
 
 ## 2.7 Escaping Special Characters
 
-A backslash `\` is used in regular expressions to escape the next character. This
-allows us to include reserved characters such as `{ } [ ] / \ + * . $ ^ | ?` as matching characters. To use one of these special character as a matching character, prepend it with `\`.
+Sebuah backslash `\` digunakan pada regular expression untuk meng-escape karakter berikutnya.
+Ini membolehkan kita untuk memasukkan karakter spesial seperti `{ } [ ] / \ + * . $ ^ | ?`
+sebagai karakter yang dicocokkan. Untuk menggunakan salah satu dari karakter spesial itu
+sebagai karakter yang dicocokkan, awali dengan tanda `\`.
 
-For example, the regular expression `.` is used to match any character except a
-newline. Now, to match `.` in an input string, the regular expression
-`(f|c|m)at\.?` means: a lowercase `f`, `c` or `m`, followed by a lowercase
-`a`, followed by a lowercase `t`, followed by an optional `.`
-character.
+Misalnya, regular expression `.` digunakan untuk mencocokkan karakter apapun kecuali baris
+baru. Sekarang, untuk mencocokkan `.` pada string yang di-input, regular expression 
+`(f|c|m)at\.?` berarti: sebuah huruf kecil `f`, `c` atau `m`, diikuti dengan sebuah huruf
+kecil `a`, diikuti dengan sebuah huruf kecil `t`, opsionalnya diikuti sebuah karakter `.`.
 
 <pre>
 "(f|c|m)at\.?" => The <a href="#learn-regex"><strong>fat</strong></a> <a href="#learn-regex"><strong>cat</strong></a> sat on the <a href="#learn-regex"><strong>mat.</strong></a>
