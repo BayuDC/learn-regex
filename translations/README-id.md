@@ -135,10 +135,10 @@ kurung siku. Karakter meta adalah sebagai berikut:
 
 ## 2.1 The Full Stop
 
-The full stop `.` is the simplest example of a meta character. The meta character `.`
-matches any single character. It will not match return or newline characters.
-For example, the regular expression `.ar` means: any character, followed by the
-letter `a`, followed by the letter `r`.
+Tanda titik `.` adalah contoh paling sederhana dari karakter meta. Karakter meta `.`
+mencocokkan dengan karakter apapun. Itu tidak akan mencocokkan karakter return atau barus baru.
+Sebagai contoh, regular expression `.ar` maksudnya: karakter apa pun, diikuti dengan 
+huruf `a`, diikuti dengan huruf `r`.
 
 <pre>
 ".ar" => The <a href="#learn-regex"><strong>car</strong></a> <a href="#learn-regex"><strong>par</strong></a>ked in the <a href="#learn-regex"><strong>gar</strong></a>age.
