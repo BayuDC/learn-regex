@@ -113,25 +113,25 @@ akan cocok dengan string `the`.
 
 ## 2. Meta Characters
 
-Meta characters are the building blocks of regular expressions.  Meta
-characters do not stand for themselves but instead are interpreted in some
-special way. Some meta characters have a special meaning and are written inside
-square brackets. The meta characters are as follows:
+Karakter meta adalah blok bangunan regular expression.  Karakter
+meta tidak berdiri sendiri tetapi sebaliknya ditafsirkan dalam
+beberapa cara khusus. Beberapa karakter meta memiliki arti khusus dan ditulis di dalam tanda
+kurung siku. Karakter meta adalah sebagai berikut:
 
-|Meta character|Description|
+|Meta character|Deskripsi|
 |:----:|----|
-|.|Period matches any single character except a line break.|
-|[ ]|Character class. Matches any character contained between the square brackets.|
-|[^ ]|Negated character class. Matches any character that is not contained between the square brackets|
-|*|Matches 0 or more repetitions of the preceding symbol.|
-|+|Matches 1 or more repetitions of the preceding symbol.|
-|?|Makes the preceding symbol optional.|
-|{n,m}|Braces. Matches at least "n" but not more than "m" repetitions of the preceding symbol.|
-|(xyz)|Character group. Matches the characters xyz in that exact order.|
-|&#124;|Alternation. Matches either the characters before or the characters after the symbol.|
-|&#92;|Escapes the next character. This allows you to match reserved characters <code>[ ] ( ) { } . * + ? ^ $ \ &#124;</code>|
-|^|Matches the beginning of the input.|
-|$|Matches the end of the input.|
+|.|Titik cocok dengan karakter tunggal apapun kecuali jeda baris.|
+|[ ]|Character class. Mencocokkan dengan karakter apa pun yang ada di antara tanda kurung siku.|
+|[^ ]|Negated character class. Mencocokkan dengan karakter apapun yang tidak berada di antara tanda kurung siku|
+|*|Mencocokkan 0 atau lebih pengulangan dari simbol sebelumnya.|
+|+|Mencocokkan 1 atau lebih pengulangan simbol sebelumnya.|
+|?|Membuat simbol sebelumnya opsional.|
+|{n,m}|Braces. Mencocokkan setidaknya "n" tapi tidak lebih dari "m" pengulangan dari simbol sebelumnya.|
+|(xyz)|Character group. Mencocokkan karakter xyz dengan urutan yang tepat.|
+|&#124;|Alternasi. Mencocokkan dengan karakter sebelumnya atau karakter setelah simbol.|
+|&#92;|Lolos karakter berikutnya. Ini mengizinkan kamu untuk mencocokkan karakter dengan <code>[ ] ( ) { } . * + ? ^ $ \ &#124;</code>|
+|^|Mencocokkan dengan input awal.|
+|$|Mencocokkan dengan input akhir.|
 
 ## 2.1 The Full Stop
 
