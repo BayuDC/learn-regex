@@ -8,7 +8,7 @@
 </p>
 
 
-## Translations:
+## Terjemahan :
 
 * [English](README.md)
 * [German](translations/README-de.md)
@@ -35,7 +35,7 @@
     </a>
 </p>
 
-> Regular Expression adalah sekumpulan karakter atau simbol yang dimana digunakan untuk menemukan suatu pola khusus pada sebuah text.
+> Sebuah reguler expression adalah sekumpulan karakter atau simbol yang digunakan untuk menemukan suatu pola khusus pada sebuah teks.
 
 Regular Expression adalah pola yang dicocokan dengan string subjek dari
 kiri ke kanan. Regular Expression digunakan untuk mengganti teks didalam string, 
