@@ -35,24 +35,24 @@
     </a>
 </p>
 
-> Sebuah reguler expression adalah sekumpulan karakter atau simbol yang digunakan untuk menemukan suatu pola khusus pada sebuah teks.
+> Sebuah regular expression adalah sekumpulan karakter atau simbol yang digunakan untuk menemukan suatu pola khusus pada sebuah teks.
 
-Regular Expression adalah pola yang dicocokan dengan string subjek dari
-kiri ke kanan. Regular Expression digunakan untuk mengganti teks didalam string, 
-validasi formulir, meng-ekstrak substring dari string berdasarkan kecocokan pola, 
+Sebuah regular expression adalah pola yang dicocokan dengan sebuah subjek string dari
+kiri ke kanan. Regular expression digunakan untuk mengganti teks didalam string, 
+validasi formulir, meng-ekstrak substring dari sebuah string berdasarkan pola yang cocok, 
 dan masih banyak lagi. Istilah "regular expression" cukup panjang, jadi kamu biasanya menemukan istilah tersebut disingkat menjadi "regex" atau "regexp". 
 
-Bayangkanlah kamu menulis sebuah aplikasi dan kamu ingin mengatur sebuah peraturan ketika sebuah
-pengguna memilih nama pengguna mereka. Kita ingin untuk mengizinkan sebuah nama pengguna mengandung huruf,
-angka, garis bawah dan tanda hubung. Kita juga ingin membatasi batas karakter
-nama pengguna. jadi itu tidak terlihat buruk. Kita bisa menggunakan Regular Expression tersebut untuk memvalidasi username itu:
+Bayangkanlah kamu membuat sebuah aplikasi dan kamu ingin menetapkan sebuah peraturan ketika seorang 
+user menentukan username mereka. Kita ingin mengizinkan sebuah username mengandung huruf,
+angka, garis bawah dan tanda hubung. Kita juga ingin membatasi jumlah karakter
+username jadi itu tidak terlihat buruk. Kita bisa menggunakan regular expression dibawah ini untuk melakukan validasi username:
 
 <br/><br/>
 <p align="center">
   <img src="./img/regexp-en.png" alt="Regular expression">
 </p>
 
-Regular Expression diatas bisa menerima string `john_doe`, `jo-hn_doe` dan
+Regular expression diatas dapat menerima string `john_doe`, `jo-hn_doe` dan
 `john12_as`. Itu tidak cocok dengan `Jo` karena string itu mengandung huruf 
 besar dan juga terlalu pendek.
 
