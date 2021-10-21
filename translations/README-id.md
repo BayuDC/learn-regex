@@ -35,28 +35,28 @@
     </a>
 </p>
 
-> A regular expression is a group of characters or symbols which is used to find a specific pattern in a text.
+> Ekspresi reguler adalah  sekumpulan karakter atau  simbol uang  di gunakan  untuk mencari pola khusus di dalam  sebuah kalimat.
 
-A regular expression is a pattern that is matched against a subject string from
-left to right. Regular expressions are used to replace text within a string, 
-validating forms, extracting a substring from a string based on a pattern match, 
-and so much more. The term "regular expression" is a mouthful, so you will usually
-find the term abbreviated to "regex" or "regexp". 
+Sebuah  Ekspresi  reguler adalah pola yang sesuai dengan sebuah String yang di baca dari kiri ke kanan.
+Ekspresi reguler dapat di gunakan untuk : 
+1. Mengganti kata  di  dalam sebuah string
+2. Memvalidasi form.
+3. Mengekstraksi substring dari  string berdasarkan pada pola kecocokannya
+4. dan lain-lain.
+Istilah " Ekspresi Reguler" lebih di kenal  atau seringkali di sebut "Regex" atau "RegExp".
 
-Imagine you are writing an application and you want to set the rules for when a
-user chooses their username. We want to allow the username to contain letters,
-numbers, underscores and hyphens. We also want to limit the number of characters
-in the username so it does not look ugly. We can use the following regular expression to
-validate the username:
+Bayangkan jika anda sedang menulis pada sebuah aplikasi dan and ingin membuat aturan penulisan username dari pengguna.
+Anda menginginkan  username harus di isi dengan  huruf, angka, garis bawah dan  strip. 
+Anda juga ingin membatasi  jumlah karakter pada username sehingga tidak terlihat jelek. 
+maka kita  dapat menuliskan Ekspresi reguler sebagai validasi  username sebagai berikut:
 
 <br/><br/>
 <p align="center">
   <img src="./img/regexp-en.png" alt="Regular expression">
 </p>
 
-The regular expression above can accept the strings `john_doe`, `jo-hn_doe` and
-`john12_as`. It does not match `Jo` because that string contains an uppercase
-letter and also it is too short.
+Ekspresi reguler di atas dapat menerima string `john_doe`, `jo-hn_doe` dan
+`john12_as`. Tapi tidak dapat menerima `Jo` Karena string tersebut berisi huruf kapital dan juga jumlah  huruf yang terlalu sedikit.
 
 ## Table of Contents
 
